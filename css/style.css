@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-family: 'Roboto Bold', sans-serif;
+  color: white;
+  border-style: solid;
+  border-color: black;
+  background-color: black;
+  font-size: 20px;
+  padding: 20px;
+  margin: 0;
+}
+.redBox {
+  background-color: #A42D25;
+  width: 800px;
+  text-align: center;
+  margin: 20px auto;
+  padding: 50px;
+  color: white;
+}
+.redBox p {
+  text-align: left;
+  line-height: 1.3;
+}
+.whiteBox {
+  background-color: white;
+  width: 800px;
+  text-align: center;
+  margin: 20px auto;
+  padding: 50px;
+  color: black;
+  overflow: auto;
+}
+.whiteBox {
+  background-color: white;
+  width: 800px;
+  text-align: center;
+  margin: 20px auto;
+  padding: 50px;
+  color: black;
+  overflow: auto;
+}
+/*.whiteBox p {
+  text-align: left;
+  line-height: 1.3;
+}*/
+
+}
+.whiteBox article h5 {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: darkgrey;
+}
+.orangebox {
+  background-color: white;
+  width: 800px;
+  height: 466px;
+  text-align: center;
+  margin: 20px auto;
+  padding: 50px;
+  color: white;
+}
+.dot {
+  height: 204px;
+  width: 204px;
+  background-color: #A42D25;
+  border-radius: 50%;
+  display: inline-block;
+  padding-bottom: 150px;
+  box-sizing: border-box;
+}
+.yellowbox {
+  background-color: white;
+  width: 800px;
+  height: 466px;
+  text-align: center;
+  margin: 20px auto;
+  padding: 50px;
+  color: white;
+}
+.logo {
+  width: 100%;
+  background-color: #A42D25;
+  padding: 20px;
+  vertical-align: middle;
+}
+.bluebox article {
+  background: white;
+  width: 33%;
+  padding: 30px 0;
+  float: left;
+}
+.amenities {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.attraction-container {
+  float: left;
+  width: 33.33%;
+  padding: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+h3 {
+  font-family: 'Roboto Bold', sans-serif;
+}
+h2 {
+  font-family: 'Helvetica Regular', sans-serif;
+  color: white;
+}
+header img {
+  width: 100%;
+}
+section {
+  display: block;
+  background-color: white;
+}
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: darkgrey;
+}
+nav a {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  border: 0px;
+  width: 100px;
+  margin: 0 auto;
+  color: black;
+  text-decoration: none;
+  border-radius: 0px;
+  color: white;
+  padding-bottom: 100px;
+  text-align: center;
+}
+nav h1 {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+}
+nav ul {
+  text-align: center;
+  margin: 0 auto;
+  list-style: none;
+  color: black;
+  background-color: white;
+}
+nav ul li {
+  position: relative;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+nav ul li a {
+  display: block;
+  padding: 0px 10px 0px 10px;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  color: black;
+}
+a:hover {
+  color: #A42D25;
+  text-decoration: underline;
+}
+a:link {
+  color: green;
+}
+nav img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  padding-top: 30px;
+}
+.form-style-1 {
+  width: 400px;
+  margin: 10px auto;
+  padding: 20px 12px 10px 20px;
+  font-size: 13px;
+  font-family: Roboto, sans-serif
+}
+.form-style-1 li {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: block;
+}
+.form-style-1 label {
+  display: block;
+  font-weight: bold;
+  margin: 0 0 3px 0;
+  padding: 0px
+}
+.form-style-1 input[type="text"], .form-style-1 input [type="email"], textarea, select {
+  box-sizing: border-box;
+  border: 1px solid #bebebe;
+  padding: 7px margin: 0px;
+  outline: 0px
+}
+.form-style-1 input[type="text"] :focus, .form-style-1 input [type="email"] :focus, textarea, select :focus {
+  border: 1px solid #88d5e9;
+  -o-box-shadow: 0 0 8px #88e5e9;
+  -webkit-box-shadow: 0 0 8px #88e5e9;
+  -moz-box-shadow: 0 0 8px #88e5e9;
+  box-shadow: 0 0 8px #88e5e9;
+}
+select {
+  height: 34px;
+  width: 200px;
+}
+.field-divided {
+  width: 50%;
+}
+.field-long {
+  width: 190px;
+}
+.field-textarea {
+  height: 100px
+}
+input [type="submit"] {
+  background-color: #FCF2F1;
+  padding: 8px 15px;
+  border: none;
+  color: white;
+  transition: background-color 500ms ease-in: yellow;
+}
+fieldset {
+  width: 560px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+ 
+
+  
+
+  
+
+ 
